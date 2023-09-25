@@ -14,6 +14,7 @@ test('ariketa9 filters users older than or equal to 18 and calculates the total 
         { izena: "Ane", adina: 19, erosketak: [1.75,4.60,3.00] }
     ];
     expect(ariketa9(users)).toEqual(76.35);
+});
 
 
 test('ariketa10 calculates the average score for each student and finds the one with the highest average', () => {
