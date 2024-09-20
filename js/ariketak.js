@@ -3,7 +3,9 @@ function ariketa1( arrays ){
     return arrays.map(e => e *2);
 }
 
-function ariketa2(){}
+function ariketa2( arrays ){
+    return arrays.map(e => e.izena + '-k ' + e.adina + ' urte ditu');
+}
 
 function ariketa3(){}
 
